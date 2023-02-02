@@ -18,7 +18,8 @@
     "react-adsense": "^0.1.0",
     "react-carousel-minimal": "^1.4.1",
     "react-dom": "18.2.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

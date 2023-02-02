@@ -1,12 +1,12 @@
-import Card from '@/components/Card'
-import Cat from '../components/Cat';
+import Card from '@/pages/components/Card'
+import Cat from './components/Cat';
 import Head from 'next/head'
 
 
 import { createContext, useEffect,useState } from 'react';
-import Coura from '../components/Coura'
-import TopNews from '../components/TopNews';
-import BottomNews from '../components/BottomNews';
+import Coura from './components/Coura'
+import TopNews from './components/TopNews';
+import BottomNews from './components/BottomNews';
 
 
 
@@ -30,7 +30,7 @@ export default function Home() {
       <main className=''>
         <div className='mx-5' >
     <div className='mt-20'>
-      <div className='flex flex-col md:flex-row    gap-2 '>
+      <div className='flex flex-col lg:flex-row    gap-2 '>
 <Coura/>
 <TopNews/>
       </div>

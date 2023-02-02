@@ -27,3 +27,7 @@
   font-weight: 300;
 
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
